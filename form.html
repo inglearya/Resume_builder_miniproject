@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="studentForm.css">
+    <script src="studentJs.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <title>Resume</title>
+</head>
+<body background="resume bg image.jpg">
+  <div class="container">
+    <h1 text-primary>STUDENT DETAILS FORM</h1>
+    <form id="resume-form">
+        <table align="center" cellpadding = "20">
+      <div id="resume-details">
+        <div class="resume-field">
+          <label class="field-label" for="name"><b>Name:</b></label>
+          <input class="field-value form-control" type="text" id="name" required maxlength="40" minlength="4">
+        </div>
+        <div class="resume-field">
+          <label class="field-label" for="address"><b>Address:</b></label>
+          <input class="field-value form-control" type="text" id="address" required>
+        </div>
+        <div class="resume-field">
+          <label class="field-label" for="mobile"><b>Mobile:</b></label>
+          <input class="field-value form-control" type="tel" id="mobile" required maxlength="10" minlength="10">
+        </div>
+        <div class="resume-field">
+            <label class="field-label" for="dob"><b>Date of Birth:</b></label>
+            <input class="field-value form-control" type="date" id="dob" required >
+          </div>
+        <div class="resume-field">
+          <label class="field-label" for="email"><b>Email:</b></label>
+          <input class="field-value form-control" type="email" id="email" required>
+        </div>
+
+        <div class="resume-field">
+            <label class="field-label" for="email"><b>Gender:</b></label>
+            Male <input type="radio" name="gender"  id="gender" value="Male"/>
+            Female <input type="radio" name="gender" id="gender"value="Female"/>
+          </div>
+
+        <div class="resume-field">
+          <label class="field-label" for="hobbies"><b>Hobbies:</b></label>
+          <input class="field-value form-control" type="text" id="hobbies" required>
+        </div>
+
+        <tr>
+            <label class="field-label" for="qualification"><b>QUALIFICATION:</b></label>
+            <td>
+            <table>
+             
+            <tr>
+            <td align="center"><b>Sr.No.</b></td>
+            <td align="center"><b>Examination</b></td>
+            <td align="center"><b>Board</b></td>
+            <td align="center"><b>Percentage</b></td>
+            <td align="center"><b>Year of Passing</b></td>
+            </tr>
+             
+            <tr>
+            <td>1</td>
+            <td>Class X</td>
+            <td><input type="text"  id="ClassX_Board" maxlength="40" /></td>
+            <td><input type="text"  id="ClassX_Percentage"  class="text-center" maxlength="40" /></td>
+            <td><input type="text"  id="ClassX_YrOfPassing" maxlength="40" /></td>
+            </tr>
+             
+            <tr>
+            <td>2</td>
+            <td>Class XII</td>
+            <td><input type="text" id="ClassXII_Board" maxlength="40" /></td>
+            <td><input type="text" id="ClassXII_Percentage" class="text-center" maxlength="6" /></td>
+            <td><input type="text" id="ClassXII_YrOfPassing" maxlength="5" /></td>
+            </tr>
+             
+            <tr>
+            <td>3</td>
+            <td>Graduation</td>
+            <td><input type="text" id="Graduation_Board" maxlength="40" /></td>
+            <td><input type="text" id="Graduation_Percentage" class="text-center" maxlength="6" /></td>
+            <td><input type="text" id="Graduation_YrOfPassing" maxlength="5" /></td>
+            </tr>
+             
+            <tr>
+            <td>4</td>
+            <td>Masters</td>
+            <td><input type="text" id="Masters_Board" maxlength="40" /></td>
+            <td><input type="text" id="Masters_Percentage" class="text-center" maxlength="6" /></td>
+            <td><input type="text" id="Masters_YrOfPassing" maxlength="6" /></td>
+            </tr>
+            </table>
+
+        <div class="resume-field">
+          <label class="field-label" for="skills"><b>Skills:</b></label>
+          <input class="field-value" type="text" id="skills" required>
+        </div>
+        <div class="resume-field">
+          <label class="field-label" for="photo-upload"><b>Photo:</b></label>
+          <input class="field-value" type="file" id="photo-upload" accept="image/*" required>
+        </div>
+
+
+      </div>
+      <button id="submit-btn" class="btn btn-success" type="submit">Generate Resume</button>
+    </table>
+    </form>
+  </div>
+</body>
+</html>

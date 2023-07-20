@@ -1,0 +1,98 @@
+/* h3{
+    font-family: Calibri; 
+    font-size: 25pt;         
+    font-style: normal; 
+    font-weight: bold; 
+    color:SlateBlue;
+    text-align: center; 
+    text-decoration: underline
+  }
+  
+  table{
+    border-radius: 3%;
+    font-family: Calibri; 
+    color:white; 
+    font-size: 11pt; 
+    font-style: normal;
+    font-weight: bold;
+    background-color: SlateBlue; 
+    /* border-collapse: collapse;  */
+    /* border: 2px solid navy
+  }
+  table.inner{
+    border: 0px
+  } */ 
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 25px;
+  }
+
+  #resume-container{
+      width: 60%;
+      height: fit-content;
+      margin: 0 auto;
+      border: 2px solid black;
+      justify-content: center;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      /* padding-left: 30%; */
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    text-align: center;
+    color: #333333;
+  }
+
+  /* Internal styles */
+  #photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  /* Inline styles */
+  #resume-details {
+    margin-bottom: 20px;
+  }
+
+  .resume-field {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .field-label {
+    flex-basis: 180px;
+  }
+
+  .field-value {
+    flex-grow: 2;
+  }
+
+  #submit-btn {
+    display: block;
+    margin: 0 auto;
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  #submit-btn:hover {
+    background-color: #45a049;
+  }
