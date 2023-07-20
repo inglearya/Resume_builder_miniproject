@@ -4,7 +4,7 @@ The Mini Resume Builder Project is an innovative and user-friendly web applicati
 
 *Key Features:
 
-1.Intuitive Interface: The project boasts an intuitive and modern user interface, allowing users to effortlessly navigate through the resume-building process.
+ 1.Intuitive Interface: The project boasts an intuitive and modern user interface, allowing users to effortlessly navigate through the resume-building process.
 
 2. Dynamic Resume Generation: Users can input their personal information, educational background, skills, and other relevant details into the user-friendly form. The web application dynamically generates a polished resume in real-time based on the entered information.
 
