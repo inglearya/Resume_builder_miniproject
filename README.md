@@ -15,7 +15,7 @@ The Mini Resume Builder Project is an innovative and user-friendly web applicati
 *Why Use the Mini Resume Builder Project:
 - Time-saving:Creating a resume from scratch can be time-consuming. With this project, users can have a professional resume ready in minutes.
 - User-Friendly:The application's simplicity and user-friendliness make it accessible to users of all levels of technical expertise.
-- Cost-effective: As an open-source project, the Mini Resume Builder is free to use, eliminating the need for expensive resume-building tools.
+
 
 *Future Enhancements:
 The Mini Resume Builder Project will continue to evolve and improve based on user feedback and contributions from the open-source community. Future enhancements might include:
